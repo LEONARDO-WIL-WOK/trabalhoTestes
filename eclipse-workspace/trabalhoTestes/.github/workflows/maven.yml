@@ -1,5 +1,5 @@
 
-name: Action para rodar as classes de teste
+name: classes de teste
 
 on:
   push:
