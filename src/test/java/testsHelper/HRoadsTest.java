@@ -23,7 +23,8 @@ public class HRoadsTest {
     public void validarCadastroDeOficinaRepetida() {
         metodosHelper sistema = new metodosHelper();
         sistema.registrarOficina("Auto Center Y");
-//        sistema.registrarOficina("Auto Center Y");
+//        Esta linha a baixo
+        sistema.registrarOficina("Auto Center Y");
         List<String> oficinas = sistema.obterOficinas();
         assertEquals(2, oficinas.size());
     }
